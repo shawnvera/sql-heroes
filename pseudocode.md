@@ -17,41 +17,43 @@
     Snowflake schema
         has of one fact table that is coneected to many dimension tables that are connected to many other dimentions tables through many to one relationship.
 
-The schema will relate how the different fields interact with one another. It will also distinguish the primary key (PK) and the foreign key (FK).
+    The schema will relate how the different fields interact with one another. It will also distinguish the primary key (PK) and the foreign key (FK).
 
-table
-abilities
-fields
-id
-hero_id
-ability_type_id
+List of tables:
 
-table
-ability_types
-fields
-id
-name
-
-table
-heroes
-fields
-id
-name
-about_me
-
-table
-relationship_types
-fields
-id
-name
-
-table
-relationships
-fields
-id
-hero1_id
-hero2_id
-relationship_type_id
+    table
+        abilities
+    fields
+        id
+        hero_id
+        ability_type_id
+    
+    table
+        ability_types
+    fields
+        id
+        name
+    
+    table
+        heroes
+    fields
+        id
+        name
+        about_me
+    
+    table
+        relationship_types
+    fields
+        id
+        name
+    
+    table
+        relationships
+    fields
+        id
+        hero1_id
+        hero2_id
+        relationship_type_id
 
 
 ![SQL heroes schema](/img/SQL%20Heroes%20schema.png)
