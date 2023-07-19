@@ -67,3 +67,6 @@ read a data instance
 update a data instance
 delete a data instance
 
+SELECT 
+FROM
+WHERE
