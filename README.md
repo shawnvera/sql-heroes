@@ -19,5 +19,13 @@ CRUD operations
 6. The new hero is now in the database.
 
 - Be able to read the heroes table and display information.
+
 - Be able to update items already in the heroes table.
+1. Open update_hero.py
+2. Run the file
+3. When prompted enter updated hero name
+4. When prompted enter updated about me
+5. When pompted enter updated biography
+6. When prompted enter new hero name.
+
 - Be able to delete heroes from the table.
