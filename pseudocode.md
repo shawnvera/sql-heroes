@@ -1,5 +1,5 @@
 # MVP #
-    By default, the app should perform full CRUD operations (at least one of each Create, Read, Update, Delete) on the supplied SQL Database file and prompt the user for input in the terminal to show aq list of heroes and their friends.
+    By default, the app should perform full CRUD operations (at least one of each Create, Read, Update, Delete) on the supplied SQL Database      file and prompt the user for input in the terminal to show aq list of heroes and their friends.
 
 # MoSCoW #
 
@@ -26,14 +26,14 @@
 
 # Procedural #
 
-## Database Schema ##
+### Database Schema ###
 
     Database schemas define how data is organized in a RDBMS
 
     Conceptual schema 
         big picture overview of what the system will contain, how it's organized, and which business rules are involved.
 
-    Logitcal db schema
+    Logical db schema
         less abstract than conceptual. They clearly define objects with info like tables names, field names, entity relationships, and integrity constraints.
 
     Physical db schema
@@ -90,25 +90,25 @@ List of tables:
 
 # Queries #
 
-CRUD
+**CRUD**
 
     create a data instance
     read a data instance
     update a data instance
     delete a data instance
 
-CREATE
-    INSERT INTO heroes (id, name, about_me)
-    VALUES (id, name, about_me);
-
-READ
-    SELECT name, about_me
-    FROM heroes;
-
-UPDATE
-    UPDATE heroes
-    SET id = 1, name = 'Shawn', about_me = 'super coding skills'
-    WHERE id = 1; (this is just a placeholder for now)
-
-DELETE
-    DELETE FROM heroes WHERE id = 1;
+    CREATE
+        INSERT INTO heroes (id, name, about_me)
+        VALUES (id, name, about_me);
+    
+    READ
+        SELECT name, about_me
+        FROM heroes;
+    
+    UPDATE
+        UPDATE heroes
+        SET id = 1, name = 'Shawn', about_me = 'super coding skills'
+        WHERE id = 1; (this is just a placeholder for now)
+    
+    DELETE
+        DELETE FROM heroes WHERE id = 1;
