@@ -2,11 +2,13 @@ from database.connection import execute_query, create_connection
 
 # Create a new hero in the DB
 
-def delete_hero(name):
+delete_a_hero = input("What is the name of the hero you want to delete: ")
+
+def delete_hero(delete_a_hero):
     
     query = """
         DELETE FROM heroes WHERE name = (%s);
         """
-    execute_query(query, name[1])
+    execute_query(query, delete_a_hero)
 
-delete_hero("Cletus")
+delete_hero(delete_a_hero)
