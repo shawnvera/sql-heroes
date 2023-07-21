@@ -9,6 +9,10 @@ def delete_hero():
     query = """
         DELETE FROM heroes WHERE name = (%s);
         """
-    execute_query(query, (delete_a_hero,))
+    try:
+        execute_query(query, (delete_a_hero,))
+        print("Hero has been deleted")
+    except:
+        print("Hero wasn't deleted, try again. Make sure spelling and capitalization is correct.")
 
 delete_hero()
