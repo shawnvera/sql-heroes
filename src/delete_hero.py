@@ -1,8 +1,6 @@
 from database.connection import execute_query, create_connection
 
-# Create a new hero in the DB
-
-
+# Delete a hero in the DB
 
 def delete_hero():
     delete_a_hero = input("What is the name of the hero you want to delete: ")

@@ -9,8 +9,9 @@
 - Proceed to set up your file structure per Project document.
 
 
-CRUD operations
-- Be able to create a new hero in the heroes table.
+# CRUD operations
+
+# Be able to create a new hero in the heroes table.
 1. Open create_hero.py file
 2. Run the file
 3. When prompted enter the hero's name and press enter.
@@ -18,14 +19,34 @@ CRUD operations
 5. Enter the biography as prompted by the program and press enter.
 6. The new hero is now in the database.
 
-- Be able to read the heroes table and display information.
+# Be able to read the heroes table and display information.
+1. Open select all heroes python file
+2. Run the program
+3. All heroes currently in the database will be displayed
 
-- Be able to update items already in the heroes table.
+# Be able to update items already in the heroes table.
 1. Open update_hero.py
 2. Run the file
 3. When prompted enter updated hero name
 4. When prompted enter updated about me
 5. When pompted enter updated biography
 6. When prompted enter new hero name.
+7. Press enter and the hero will be updated
 
-- Be able to delete heroes from the table.
+# Be able to delete heroes from the table.
+1. Open delete hero python file
+2. Run the program
+3. When prompted enter the name of the hero that you wish to delete
+4. Press enter and the hero will be deleted
+
+# Be able to create a relationship between characters
+1. Open create relationship python file
+2. Run the program
+3. When prompted enter character information. The IDs of the two characters you want to create a relationship between will be required. The last prompt will determine "friend" or "enemy". Enter a "1" for friend or enter a "2" for enemy.
+4. After pressing enter you'll get a notice of whether the relationship succeeded or failed.
+
+# Be able to delete a relationship between characters
+1. Open delete relationship python file
+2. Run the program
+3. When prompted enter the hero ID of the relationship you want to delete. WARNING: This will delete all relationships for that hero
+4. Press enter and the relationships will be deleted
